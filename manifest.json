@@ -1,0 +1,14 @@
+{
+  "name": "Clear Lovefilm",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description" : "This extension will remove the DVDs from the view. So you will get an better overview on the video on demand movies.",
+  
+  "content_scripts": [
+    {
+      "matches": ["http://lovefilm.de/*", "https://lovefilm.de/*"],
+      "js": ["jquery.js","content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
