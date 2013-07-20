@@ -1,2 +1,1 @@
-javascript:jQuery("div[data-product_media='DVD']").remove();jQuery("*[data-product_media='DVD']").remove();
-
+javascript:jQuery("div.gridview*[data-product_media='DVD']").remove();jQuery("div.gridview *[data-product_media='DVD']").remove();
